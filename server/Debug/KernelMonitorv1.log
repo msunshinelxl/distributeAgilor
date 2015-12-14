@@ -1,0 +1,108 @@
+﻿Build started 2015/11/18 15:46:48.
+     1>Project "C:\code\c-c++\distributeAgilor\server\KernelMonitorv1.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\KernelMonitorv1.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\KernelMonitorv1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\code\c-c++\BigdataServer\KernelMonitor_rtdb\include_mysql" /IC:\include\log4cxx\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\KernelMonitorv1.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\code\c-c++\distributeagilor\server\monitorreceivesocket.h(32): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\code\c-c++\distributeagilor\server\basetype.h(14): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\code\c-c++\BigdataServer\KernelMonitor_rtdb\include_mysql" /IC:\include\log4cxx\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\KernelMonitorv1.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt BaseGetValueEntity.cpp BaseObject.cpp BaseSocket.cpp BaseSocketReceiveThread.cpp BaseSocketSendThread.cpp BaseThread.cpp BaseType.cpp ComFuncs.cpp DataExchangePipe.cpp KernelMonitorv1.cpp KernelMonitorv1Dlg.cpp ListenSocket.cpp ManageKernelParameter.cpp MonitorReceiveSocket.cpp
+         MonitorReceiveSocket.cpp
+     1>c:\code\c-c++\distributeagilor\server\monitorreceivesocket.cpp(182): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\code\c-c++\distributeagilor\server\monitorreceivesocket.cpp(183): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\code\c-c++\distributeagilor\server\monitorreceivesocket.cpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\code\c-c++\distributeagilor\server\monitorreceivesocket.cpp(188): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\code\c-c++\distributeagilor\server\monitorreceivesocket.cpp(221): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\code\c-c++\distributeagilor\server\monitorreceivesocket.cpp(146): warning C4101: 'ti' : unreferenced local variable
+         ManageKernelParameter.cpp
+         ListenSocket.cpp
+         KernelMonitorv1Dlg.cpp
+     1>c:\code\c-c++\distributeagilor\server\kernelmonitorv1dlg.cpp(377): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+         KernelMonitorv1.cpp
+     1>c:\code\c-c++\distributeagilor\server\kernelmonitorv1.cpp(52): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(5344) : see declaration of 'CWinApp::Enable3dControls'
+         DataExchangePipe.cpp
+         ComFuncs.cpp
+     1>c:\code\c-c++\distributeagilor\server\comfuncs.cpp(35): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\code\c-c++\distributeagilor\server\comfuncs.cpp(72): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\code\c-c++\distributeagilor\server\comfuncs.cpp(134): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         BaseType.cpp
+         BaseThread.cpp
+         BaseSocketSendThread.cpp
+         BaseSocketReceiveThread.cpp
+         BaseSocket.cpp
+         BaseObject.cpp
+         BaseGetValueEntity.cpp
+     1>c:\code\c-c++\distributeagilor\server\basegetvalueentity.cpp(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\code\c-c++\distributeagilor\server\basegetvalueentity.cpp(125): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\KernelMonitorv1.res" KernelMonitorv1.rc 
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\KernelMonitorv1.exe.embed.manifest.res" .\Debug\KernelMonitorv1_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\KernelMonitorv1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Lib\log4cxx\Dynamic\Release WS2_32.lib DeviceRtdb.lib AgilorAPI.lib libmysql.lib log4cxx.lib /MANIFEST /ManifestFile:".\Debug\KernelMonitorv1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\code\c-c++\distributeAgilor\server\Debug\KernelMonitorv1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\KernelMonitorv1.lib" /MACHINE:X86 .\Debug\KernelMonitorv1.res
+         .\Debug\KernelMonitorv1.exe.embed.manifest.res
+         .\Debug\BaseGetValueEntity.obj
+         .\Debug\BaseObject.obj
+         .\Debug\BaseSocket.obj
+         .\Debug\BaseSocketReceiveThread.obj
+         .\Debug\BaseSocketSendThread.obj
+         .\Debug\BaseThread.obj
+         .\Debug\BaseType.obj
+         .\Debug\ComFuncs.obj
+         .\Debug\DataExchangePipe.obj
+         .\Debug\KernelMonitorv1.obj
+         .\Debug\KernelMonitorv1Dlg.obj
+         .\Debug\ListenSocket.obj
+         .\Debug\ManageKernelParameter.obj
+         .\Debug\MonitorReceiveSocket.obj
+         .\Debug\StdAfx.obj
+       Manifest:
+         Deleting file ".\Debug\KernelMonitorv1.exe.embed.manifest".
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\KernelMonitorv1.exe.embed.manifest" /manifest .\Debug\KernelMonitorv1.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\KernelMonitorv1.exe.embed.manifest.res" .\Debug\KernelMonitorv1_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\KernelMonitorv1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Lib\log4cxx\Dynamic\Release WS2_32.lib DeviceRtdb.lib AgilorAPI.lib libmysql.lib log4cxx.lib /MANIFEST /ManifestFile:".\Debug\KernelMonitorv1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\code\c-c++\distributeAgilor\server\Debug\KernelMonitorv1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\KernelMonitorv1.lib" /MACHINE:X86 .\Debug\KernelMonitorv1.res
+         .\Debug\KernelMonitorv1.exe.embed.manifest.res
+         .\Debug\BaseGetValueEntity.obj
+         .\Debug\BaseObject.obj
+         .\Debug\BaseSocket.obj
+         .\Debug\BaseSocketReceiveThread.obj
+         .\Debug\BaseSocketSendThread.obj
+         .\Debug\BaseThread.obj
+         .\Debug\BaseType.obj
+         .\Debug\ComFuncs.obj
+         .\Debug\DataExchangePipe.obj
+         .\Debug\KernelMonitorv1.obj
+         .\Debug\KernelMonitorv1Dlg.obj
+         .\Debug\ListenSocket.obj
+         .\Debug\ManageKernelParameter.obj
+         .\Debug\MonitorReceiveSocket.obj
+         .\Debug\StdAfx.obj
+         KernelMonitorv1.vcxproj -> C:\code\c-c++\distributeAgilor\server\.\Debug\KernelMonitorv1.exe
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\KernelMonitorv1.bsc" .\Debug\BaseGetValueEntity.sbr .\Debug\BaseObject.sbr .\Debug\BaseSocket.sbr .\Debug\BaseSocketReceiveThread.sbr .\Debug\BaseSocketSendThread.sbr .\Debug\BaseThread.sbr .\Debug\BaseType.sbr .\Debug\ComFuncs.sbr .\Debug\DataExchangePipe.sbr .\Debug\KernelMonitorv1.sbr .\Debug\KernelMonitorv1Dlg.sbr .\Debug\ListenSocket.sbr .\Debug\ManageKernelParameter.sbr .\Debug\MonitorReceiveSocket.sbr .\Debug\StdAfx.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\KernelMonitorv1.unsuccessfulbuild".
+         Touching ".\Debug\KernelMonitorv1.lastbuildstate".
+     1>Done Building Project "C:\code\c-c++\distributeAgilor\server\KernelMonitorv1.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.42
